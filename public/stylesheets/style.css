@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rebeccapurple;
+  
 }
 
 pre {
@@ -11,3 +11,31 @@ pre {
 a {
   color: #00B7FF;
 }
+.index_h3 {
+  text-align: center;
+}
+
+.course_ul {
+  padding-inline-start: 20px;
+}
+
+.course_li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  padding: 10px;
+  /* border: solid; */
+}
+
+.btn-block {
+  border-color: rgba(128, 128, 128, 0.514);
+}
+.btn-block:hover {
+  background-color: rgba(128, 128, 128, 0.514);
+}
+
+/* .course_link {
+  border: solid red;
+  height: 100%;
+} */

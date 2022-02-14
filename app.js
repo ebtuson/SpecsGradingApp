@@ -1940,7 +1940,8 @@ app.get('/showTAs/:courseId',
           for (let review of reviews){
             let reviewer =
             await User.findOne({_id:review.reviewerId})
-            if (reviewer && reviewer.taFor && (reviewer?.taFor.includes(answer.courseId))){
+            // if (reviewer && reviewer.taFor && (reviewer?.taFor.includes(answer.courseId))){
+            if (reviewer && reviewer.taFor && (reviewer.taFor.includes(answer.courseId))){
               answer.officialReviewId = review._id
               answer.points = review.points
               answer.review = review.review
