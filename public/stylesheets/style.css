@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   
 }
@@ -11,6 +11,11 @@ pre {
 a {
   color: #00B7FF;
 }
+
+.container-fluid {
+  padding: 0px;
+}
+
 .index_h3 {
   text-align: center;
 }
