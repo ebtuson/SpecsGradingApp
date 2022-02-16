@@ -1,6 +1,7 @@
 <%- include('bootheader') -%>
 <%- include('menubar') -%>
 
+<div class="page">
     <% if (user._id.equals(courseInfo.ownerId)) { %>
         You own this course<br>
         <form method="post" action="/updateProblemSet/<%= psetId %>">
@@ -17,6 +18,6 @@
     <% } else { %>
         Only the owner can update problem sets.
     <%} %>
-
+</div>
 
 <%- include('bootfooter') -%>

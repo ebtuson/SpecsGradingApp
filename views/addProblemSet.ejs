@@ -4,6 +4,7 @@
         <h1><%= name %></h1>
     </div>
 
+    <div class="page">
 
     <% if (user._id.equals(ownerId)) { %>
         You own this course<br>
@@ -14,6 +15,7 @@
     <% } else { %>
         You are a student in this course and may not add problem sets.
     <%} %>
-
+    
+    </div>
 
 <%- include('bootfooter') -%>

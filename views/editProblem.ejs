@@ -6,7 +6,7 @@
     <div class="jumbotron">
         <h1>Edit Problem</h1>
     </div>
-
+    <div class="page">
     <form method="post" action="/updateProblem/<%= problem._id %>">
         <br>
         <input type="checkbox" name='visible'
@@ -58,7 +58,7 @@
         <br>
         <input class="btn btn-lg btn-primary" type="submit">
     </form>
-
+    </div>
   <% } %>
 
 <%- include('bootfooter') -%>

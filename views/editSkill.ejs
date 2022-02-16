@@ -4,7 +4,7 @@
     <div class="jumbotron">
         <h1>Edit Skill</h1>
     </div>
-
+    <div class="page">
     <form method="post" action="/editSkill/<%= skill._id %>">
         Skill Name:<br>
         <input type="text" name="name" value="<%= skill.name %>">
@@ -14,6 +14,6 @@
         <br>
         <input class="btn btn-lg btn-primary" type="submit">
     </form>
-
+    </div>
 
 <%- include('bootfooter') -%>

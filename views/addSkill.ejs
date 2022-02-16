@@ -4,6 +4,7 @@
         <h1>Add Skill</h1>
     </div>
 
+    <div class="page">
     <form method="POST" action="/addSkill">
         <input type="hidden" name="courseId" value="<%= courseId %>">
         Skill Name:<br>
@@ -14,6 +15,6 @@
         <br>
         <input class="btn btn-lg btn-primary" type="submit">
     </form>
-
+    </div>
 
 <%- include('bootfooter') -%>
